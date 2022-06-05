@@ -1,0 +1,31 @@
+{
+  "name": "@mx-bernhard/babel-plugin-react-higher-order-component-name",
+  "version": "0.1.0",
+  "description": "Infers name from outer variable declaration and changes arrow function to named function",
+  "main": "src/index.js",
+  "author": "Bernhard Jahn",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/helper-plugin-test-runner": "^7.16.7",
+    "@babel/preset-react": "^7.17.12",
+    "jest": "^28.1.0"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mx-bernhard/babel-plugin-react-higher-order-component-name.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mx-bernhard/babel-plugin-react-higher-order-component-name/issues"
+  },
+  "homepage": "https://github.com/mx-bernhard/babel-plugin-react-higher-order-component-name#readme"
+}
